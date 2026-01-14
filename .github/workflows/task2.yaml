@@ -28,5 +28,4 @@ jobs:
     - name: Deploy 
       uses: distributhor/workflow-webhook@v3
       with:
-        method: 'POST'
-        url: ${{secrets.WEBHOOK_URL}}
+        webhook_url: ${{secrets.WEBHOOK_URL}}
